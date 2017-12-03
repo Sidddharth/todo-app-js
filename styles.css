@@ -1,0 +1,91 @@
+/* base css*/
+*, *:before, *:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+body {
+  background: #dedede;
+}
+.wrapper {
+  width: 400px;
+  margin: 0 auto;
+  background: #002B36;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+  -ms-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+  -o-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+}
+.container {
+  width: 90%;
+  text-align: center;
+  padding: 5px 0;
+}
+.clearfix:before, .clearfix:after {
+  display: block;
+  content: '';
+  visibility: hidden;
+  clear: both;
+}
+li {
+  list-style: none;
+}
+
+/*title*/
+ .title {
+   text-align: center;
+   color: #fff;
+   padding: 5px 0;
+ }
+/*addForm*/
+.header {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#input,
+#add {
+  margin: 5px 0;
+}
+
+#input {
+  background: rgba(255,255,255,0.4);
+  border-radius:2px;
+  box-shadow: inset 0px 4px rgba(0,0,0,0.4);
+  font-size: 17px;
+  line-height: 40px;
+  color: white;
+}
+
+#add {
+  border: none;
+  padding: 5px 50px;
+  font-size: 20px;
+}
+#add:hover {
+  background:#FF9800;
+    color: #fff;
+}
+
+/* list-item */
+.list-item {
+  width: 100%;
+  padding: 5px 0;
+  margin: 5px 0;
+  background: #fff;
+}
+
+.delete {
+  padding: 5px;
+  border: none;
+  background:  #F44336;
+  color:#fff;
+  float: right;
+  margin-right: 10px;
+}
+.delete:hover {
+  background: #D32F2F;
+}
